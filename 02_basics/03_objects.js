@@ -14,7 +14,11 @@ const JsUser = {
     location: "Jaipur",
     email: "hitesh@google.com",
     isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+    lastLoginDays: ["Monday", "Saturday"],
+    greeting: function(){
+        console.log("Hellow this is something else.");
+        
+    }
 }
 
 // console.log(JsUser.email)
@@ -27,12 +31,12 @@ JsUser.email = "hitesh@chatgpt.com"
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
-}
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
-}
+// JsUser.greeting = function(){
+//     console.log("Hello JS user");
+// }
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello JS user, ${this.name}`);
+// }
 
 console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingTwo());

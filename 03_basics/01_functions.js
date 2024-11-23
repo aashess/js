@@ -5,7 +5,7 @@ function sayMyName(){
     console.log("T");
     console.log("E");
     console.log("S");
-    console.log("H");
+    console.log("H"); //
 }
 
 // sayMyName()
@@ -27,7 +27,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "sam"){        //checked.........** 
     if(!username){
         console.log("PLease enter a username");
         return
@@ -39,13 +39,14 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+
+function calculateCartPrice(val1, val2, ...num1){       //checked.........**
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 2000)) 
 
-const user = {
+const user = {                    
     username: "hitesh",
     prices: 199
 }
@@ -60,6 +61,8 @@ handleObject({
     price: 399
 })
 
+//checked.........**
+
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
@@ -68,3 +71,5 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+//checked.........**
